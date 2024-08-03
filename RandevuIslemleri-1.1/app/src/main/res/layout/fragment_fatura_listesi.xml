@@ -10,7 +10,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/tab_selected_color"
+        android:paddingTop="44dp"
+        android:background="@drawable/fatura_toolbar_background"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,13 +92,9 @@
             android:layout_marginLeft="199dp"
             android:layout_marginBottom="10dp"
             android:layout_gravity="end"
-            android:text = "₺ 99,99"
+            android:text = ""
             android:textSize="15dp"
             />
-
-
-
-
     </androidx.cardview.widget.CardView>
 
 

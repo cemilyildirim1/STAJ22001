@@ -1,5 +1,6 @@
 package com.cemilyildirim.randevuislemleri.view.randevu
 
+import android.annotation.SuppressLint
 import com.cemilyildirim.randevuislemleri.R
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -18,6 +19,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

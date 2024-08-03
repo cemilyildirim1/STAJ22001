@@ -48,10 +48,7 @@ class RandevuOlusturFragment : Fragment() {
 
         }
 
-
         }
-
-
 
     override fun onDestroyView() {
         super.onDestroyView()

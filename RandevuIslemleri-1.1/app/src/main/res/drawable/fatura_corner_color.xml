@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Arka Plan Rengi -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@android:color/white"/> <!-- Arka plan rengini buradan ayarlayın -->
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <stroke
+                android:width="2dp"
+                android:color="#10000000"/> <!-- Köşe rengini buradan ayarlayın -->
+        </shape>
+    </item>
+</layer-list>
