@@ -1,0 +1,6 @@
+<resources>
+    <color name="tab_unselected_color">#444444</color> <!-- Varsayılan metin rengi -->
+    <color name="tab_selected_color">#F3BC45</color> <!-- Seçili metin rengi -->
+    <color name="tab_selected_background_color">#F5F5F5</color> <!-- Seçili tab arka plan rengi -->
+    <color name="tab_unselected_background_color">#FFFFFF</color> <!-- Seçili olmayan tab arka plan rengi -->
+</resources>
